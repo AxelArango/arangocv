@@ -1,0 +1,207 @@
+
+
+\documentclass[darkhipster]{simplehipstercv}
+
+\usepackage[utf8]{inputenc}
+\usepackage[default]{raleway}
+\usepackage[margin=1cm, a4paper]{geometry}
+\usepackage[colorlinks=true, urlcolor=Bittersweet, filecolor=Fuchsia, linkcolor=JungleGreen]{hyperref}
+%------------------------------------------------------------------ Variablen
+\newlength{\rightcolwidth}
+\newlength{\leftcolwidth}
+\setlength{\leftcolwidth}{0.23\textwidth}
+\setlength{\rightcolwidth}{0.75\textwidth}
+
+%------------------------------------------------------------------
+\title{New Simple CV}
+\date{May 2024}
+
+\pagestyle{empty}
+\begin{document}
+
+
+\thispagestyle{empty}
+%-------------------------------------------------------------
+
+\section*{Start}
+
+\simpleheader{headercolour}{Axel}{Arango}{PhD}{white}
+
+
+
+%------------------------------------------------
+
+% this has to be here so the paracols starts..
+\subsection*{}
+\vspace{4em}
+
+\setlength{\columnsep}{1.5cm}
+\columnratio{0.23}[0.75]
+\begin{paracol}{2}
+\hbadness5000
+%\backgroundcolor{c[1]}[rgb]{1,1,0.8} % cream yellow for column-1 %\backgroundcolor{g}[rgb]{0.8,1,1} % \backgroundcolor{l}[rgb]{0,0,0.7} % dark blue for left margin
+
+\paracolbackgroundoptions
+
+% 0.9,0.9,0.9 -- 0.8,0.8,0.8
+
+
+\footnotesize
+{\setasidefontcolour
+\flushright
+\begin{center}
+\roundpic{headshot.png}
+\end{center}
+
+\bg{cvgreen}{white}{About me}\\[0.5em]
+
+{Experienced \textbf{data analyst}. Proficient in \textbf{programming}, pretty good \textbf{problem solver} and innate learner. Skilled in\textbf{ statistical analysis }and \textbf{data visualization}.}
+\bigskip
+
+\bg{cvgreen}{white}{personal} \\[0.5em]
+\textbf{Axel Arango}
+
+nationality: Mexican 
+
+\faBirthdayCake \hspace{0.5mm} April, 1993 
+
+\bigskip
+
+\bg{cvgreen}{white}{Areas of specialization} \\[0.5em]
+
+\texttt{Data analysis} ~•~ \texttt{Data visualization} ~•~ \texttt{Programming Stats} ~•~ \texttt{Storytelling}
+
+
+\bigskip
+
+
+
+\bigskip
+
+\bg{cvgreen}{white}{\faLineChart \hspace{0.5mm} Abstract skills}\\[0.5em]
+\texttt{Descriptive statistics} ~/~ \texttt{Bayesian Statistics} ~/~ \texttt{Regression analysis} ~/~ \texttt{Spatial modeling} ~/~ \texttt{Qualitative coding}
+
+\bigskip
+
+\bg{cvgreen}{white}{\faUser \hspace{0.5mm} Personal skills}\\[0.5em]
+\texttt{Detail oriented } ~/~ \texttt{Team player} ~/~  \texttt{Problem solver} ~/~ \texttt{Passionate} ~/~ \texttt{Fast learner} 
+\bigskip
+
+\bg{cvgreen}{white}{\faCode \hspace{0.5mm} Programming skills}\\[0.5em]
+
+
+\texttt{R} ~/~ \texttt{julia} ~/~ \texttt{Python}
+
+\texttt{\LaTeX} ~/~ \texttt{Slurm} ~/~ \texttt{Stata}
+
+ ~/~ \texttt{HTML} 
+ 
+ \bigskip
+ \bg{cvgreen}{white}{\faDesktop \hspace{0.5mm} Other skills}\\[0.5em]
+\texttt{MacOS} ~/~ \texttt{Windows} ~/~ \texttt{Linux} ~/~ \texttt{git} ~/~  \texttt{MS Office suit} ~/~  \texttt{ArcGIS}~/~  \texttt{InkScape} ~/~  \texttt{Illustrator}
+
+ 
+
+\vspace{4em}
+
+\infobubble{\faAt}{cvgreen}{white}{axlarango@gmail}
+\infobubble{\faGlobe}{cvgreen}{white}{\href{http://axelarango.github.io/}{axelarango.github.io}}
+\infobubble{\faGithub}{cvgreen}{white}{\href{http://github.com/axelarango}{axelarango}}
+
+\phantom{turn the page}
+
+\phantom{turn the page}
+}
+%-----------------------------------------------------------
+\switchcolumn
+
+\small
+\section*{Short Resumé}
+
+\begin{tabular}{r| p{0.5\textwidth} c}
+    \cvevent{2024 -- Present}{Postdoctoral Researcher}{Wuerzburg University}{Wuerzburg \color{cvred}}{\begin{itemize}
+    	\item Conducting independent research projects involving large scale quantitative datasets of biodiversity and subsequent analyses.
+    	\item Creating functions to help streamline workflow, data cleaning and data analysis.
+    	\item Organizing symposia, talks and other administrative tasks.
+    \end{itemize}}{uniwu}\\
+    \cvevent{2017--2023}{Data Analyst}{INECOL}{Xalapa \color{cvred}}{	\begin{itemize}
+    	\item Conducted independent research projects investigating biodiversity patterns, utilizing advanced research methodologies and statistical techniques.
+\item{Analyzed large datasets using R, Python and Julia, identifying trends, patterns, and correlations.}
+\item{Published three peer-reviewed articles in prestigious academic journals (with more in review processes) and presented research findings at four international conferences.}
+\item{Collaborated with interdisciplinary teams of researchers.}
+\end{itemize}
+}{inecol.png}
+\end{tabular}
+\vspace{3em}
+
+\begin{minipage}[t]{0.35\textwidth}
+\section*{Degrees}
+\begin{tabular}{r p{0.6\textwidth} c}
+    \cvdegree{2023}{Bioinformatics}{PhD}{INECOL\color{headerblue}}{}{inecol.png} \\
+    \cvdegree{2019}{Ecology}{M.Sc.}{INECOL \color{headerblue}}{}{inecol.png} \\
+    \cvdegree{2017}{Biology}{B.Sc.}{UV \color{headerblue}}{}{uv.png}
+\end{tabular}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.3\textwidth}
+\section*{Programming}
+\begin{tabular}{r @{\hspace{0.5em}}l}
+     \bg{skilllabelcolour}{iconcolour}{html} &  \barrule{0.3}{0.5em}{cvpurple}\\
+     \bg{skilllabelcolour}{iconcolour}{julia} & \barrule{0.33}{0.5em}{cvpurple} \\
+     \bg{skilllabelcolour}{iconcolour}{python} & \barrule{0.5}{0.5em}{cvpurple} \\
+     \bg{skilllabelcolour}{iconcolour}{R} & \barrule{0.55}{0.5em}{cvgreen} \\
+     \bg{skilllabelcolour}{iconcolour}{stata} & \barrule{0.36}{0.5em}{cvpurple} \\
+\end{tabular}
+\end{minipage}
+
+
+\begin{minipage}[t]{0.3\textwidth}
+\section*{Outreach}
+\begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.55\textwidth}}
+    \href{https://journalofbiogeographynews.org/2021/03/09/ecr-feature-axel-arango-on-diversity-of-the-seasonally-dry-forests-in-the-neotropic}{2021} & Axel Arango on diversity of the Seasonally Dry Forests.\\
+    \href{https://elportal.mx/salud-y-ciencia/inecol-es-ciencia/12/02/2020/riqueza-de-especies/}{2019} & What is Phylogenetic Diversity \\
+    \href{https://praxisrevista.com/2019/06/25/la-biodiversidad-de-veracruz/}{2019} & Biodiversity of Veracruz
+\end{tabular}
+\bigskip
+
+\section*{Languages}
+\begin{tabular}{l | ll}
+\textbf{Spanish} & C2 & {\phantom{x}\footnotesize mother tongue} \\
+\textbf{English} & C2 & \pictofraction{\faCircle}{cvgreen}{3}{black!30}{1}{\tiny} \\
+\textbf{German} &   & \pictofraction{\faCircle}{cvgreen}{1}{black!30}{3}{\tiny} \\
+
+\end{tabular}
+\bigskip
+
+\end{minipage}\hfill
+\begin{minipage}[t]{0.3\textwidth}
+\section*{Publications}
+\begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.7\textwidth}}
+   2023 & ``Same process, different patterns: pervasive effect of evolutionary time on species
+richness in freshwater fishes.''\emph{ Proceedings of the Royal Society B} \\
+    2022 & ``Hand-Wing Index as a surrogate for dispersal ability: the case of the
+Emberizoidea (Aves: Passeriformes) radiation''. \emph{Biological Journal of the Linnean
+Society}\\
+2021 & ``The phylogeneticdiversity and structure of the seasonally dry forests in the Neotropics''. \emph{Journal of Biogeography}
+\end{tabular}
+\end{minipage}
+
+
+
+
+
+
+\vfill{} 
+
+\setlength{\parindent}{0pt}
+\begin{minipage}[t]{\rightcolwidth}
+\begin{center}\fontfamily{\sfdefault}\selectfont \color{black!70}
+{\small Axel Arango \icon{\faEnvelopeO}{cvgreen}{} Würzburger str. 25 \icon{\faMapMarker}{cvgreen}{} Randersacker \icon{\faPhone}{cvgreen}{} +49 152 57282297
+\newline This cv was made with \faHeart \hspace{0.05mm} using \LaTeX (\href{https://github.com/AxelArango/arangocv/hipstercv}{see the code here})
+ \newline\icon{\faAt}{cvgreen}{} \protect\url{axlarango@gmail.com}
+}
+\end{center}
+\end{minipage}
+
+\end{paracol}
+
+\end{document}
